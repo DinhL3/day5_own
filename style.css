@@ -1,3 +1,4 @@
+/* Default text */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif !important;
@@ -31,6 +32,32 @@ section span {
 .text-center {
     text-align: center;
 }
+
+/* buttons */
+
+.btn-grad {
+    background-color: transprent;
+       margin: 10px;
+       padding: 15px 45px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.8s;
+       background-size: 200% auto;
+       color: white;            
+       box-shadow: 0 0 20px #eee;
+       border-radius: 0px;
+       display: block;
+       text-decoration: none;
+       border: 2px solid #ff6a80;
+        color: #337fa8;
+        }
+    
+     .btn-grad:hover {
+        background-image: linear-gradient(to right, #ffb6e6 25%, #ffb6c1  51%, #ffd0b6 100%);
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+     }
 
 /* positions */
 .relative {
@@ -124,29 +151,7 @@ nav {
 
 
 
-.btn-grad {
-background-color: transprent;
-   margin: 10px;
-   padding: 15px 45px;
-   text-align: center;
-   text-transform: uppercase;
-   transition: 0.8s;
-   background-size: 200% auto;
-   color: white;            
-   box-shadow: 0 0 20px #eee;
-   border-radius: 0px;
-   display: block;
-   text-decoration: none;
-   border: 2px solid #ff6a80;
-    color: #337fa8;
-    }
 
- .btn-grad:hover {
-    background-image: linear-gradient(to right, #ffb6e6 25%, #ffb6c1  51%, #ffd0b6 100%);
-   background-position: right center; /* change the direction of the change here */
-   color: #fff;
-   text-decoration: none;
- }
 
 .hero .relative {
     position:relative;
