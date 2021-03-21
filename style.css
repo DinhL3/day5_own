@@ -81,6 +81,14 @@ section span {
     margin:0;
 }
 
+.pt-54 {
+    padding-top: 54px
+}
+
+.pb-54 {
+    padding-bottom: 54px;
+}
+
 /* Border & notes */
 .b-red {
     border: 1px solid red;
@@ -99,6 +107,10 @@ section span {
 
 .d-flex {
 display:flex;
+}
+
+.flex-column {
+    flex-direction: column;
 }
 
 .flex-row-reverse {
@@ -124,6 +136,14 @@ display:flex;
     align-items: center;
 }
 
+.align-content-center {
+    align-content: center;
+}
+
+.align-content-evenly {
+    align-content: ;
+}
+
 /* Navbar and mobile menu */
 nav {
     background-color: transparent;
@@ -138,7 +158,7 @@ nav {
 
 /* Hero section */
 .hero {
-    min-height: calc(100vh - 79.6px);
+    min-height: calc(100vh - 81px);
     background-color: transparent;
     position:relative;
         
@@ -155,7 +175,7 @@ nav {
 
 .hero .relative {
     position:relative;
-    top: -79.6px;
+    top: -50px;
 }
 
 /* About me */
@@ -193,7 +213,33 @@ color: black;}
 /* Projects */
 .projects {
     min-height: 100vh;
+    max-height: 100vh;
 }
+
+.projects .container {
+    height: 100vh;
+}
+
+
+
+
+.projects .img-box {
+    height: 50vmin;
+    width: 50vmin;
+    max-height: 40vh;
+    max-width: 40vh;
+    overflow: hidden;
+    border-radius: 50%;
+    margin:15px;
+    }
+
+
+
+.projects .img-box img {
+    
+    max-height: 100%;
+    
+   }
 
 /* Contacts */
 .contact {
