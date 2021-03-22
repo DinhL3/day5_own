@@ -298,3 +298,28 @@ color: black;}
     max-height: 100%;
    
 }
+
+/* Project: Beach */
+.beach .img-box {
+    width: 50vmin;
+    height: 50vmin;
+    overflow: hidden;
+    margin:15px auto;
+    border-radius: 50%;
+
+}
+
+.beach .img-box img {
+    
+    max-height: 100%;
+   
+}
+
+.beach .text {
+    max-width: 560px;
+}
+
+.beach a {
+    
+}
+    
