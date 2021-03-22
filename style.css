@@ -68,6 +68,10 @@ section span {
     position:absolute;
 }
 
+.height-100vh {
+    min-height:100vh;
+}
+
 /* Spacing */
 .p-15 {
     padding: 15px;
@@ -236,12 +240,61 @@ color: black;}
 
 
 .projects .img-box img {
-    
-    max-height: 100%;
-    
-   }
+        max-height: 100%;
+       }
+
+       .projects .img-box .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+.overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #337fa8;
+      }
+
+.projects .img-box:hover .overlay {
+        opacity: 0.8;
+      }
+      
 
 /* Contacts */
 .contact {
     min-height: 100vh;
+}
+
+.contact .img-box {
+    height: 50px;
+    width: 50px;
+    background-color: #337fa8;
+    border-radius: 50%;
+    margin: 15px;
+    }
+
+.contact .img-box:hover {
+    background-image: linear-gradient(to right, #ff4ec1 25%, #ff7388  51%, #ffa676 100%);
+       background-position: right center; /* change the direction of the change here */
+       color: #fff;
+       text-decoration: none;
+}
+
+.contact .img-box img {
+    max-width: 100%;
+    max-height: 100%;
+   
 }
